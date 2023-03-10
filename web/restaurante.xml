@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Asociar una transformación XSLT -->
+<?xml-stylesheet type="text/xsl" href="restaurante.xsl"?>
+
+<reservaeventos>
+    <!--   restaurantes   -->
+    <restaurante>
+        <nombrerestaurante>El clarete</nombrerestaurante>
+        <diadescanso>Domingo</diadescanso>
+        <horario>
+            <horamanana>
+                <horamapertura>13:30:00</horamapertura>
+                <horamcierre>15:30:00</horamcierre>
+            </horamanana>
+            <horatarde>
+                <horatapertura>21:30:00</horatapertura>
+                <horatcierre>23:00:00</horatcierre>
+            </horatarde>
+        </horario>   
+        <direccion>C/ Cercas Bajas 18</direccion>
+        <menu tipo="degustacion">
+            <plato>Carpaccio de alcachofa, aceituna negra y ensalada</plato>
+            <plato>Crema de foie, salsa de vino dulce y quicos</plato>
+            <plato>Yema de huevo de caserío confitada</plato>
+            <plato>Chipirón relleno y a la parrilla con salsa de cebolla</plato>
+            <plato>Cochinillo confitado y frito acompañado de crema de mango</plato>
+            <plato>Yoghourt, menta y maracuya</plato>
+            <plato>Crema de chocolate, aceite de oliva virgen, pan y sal</plato>
+        </menu>
+        <menu tipo="menu del día">
+            <plato>Carpaccio de alcachofa, aceituna negra y ensalada</plato>
+            <plato>Chipirón relleno y a la parrilla con salsa de cebolla</plato>
+            <plato>Yoghourt, menta y maracuya</plato>
+        </menu>
+        <ciudad postal="CP01001">Vitoria</ciudad>
+        <mesas>90</mesas>
+        <informacion tipo="web">http://www.elclareterestaurante.com/</informacion>
+    </restaurante>
+    <restaurante>
+        <nombrerestaurante>Eneko</nombrerestaurante>
+        <diadescanso>Domingo</diadescanso>
+        <horario>
+            <horamanana>
+                <horamapertura>13:30:00</horamapertura>
+                <horamcierre>15:30:00</horamcierre>
+            </horamanana>
+            <horatarde>
+                <horatapertura>21:30:00</horatapertura>
+                <horatcierre>23:00:00</horatcierre>
+            </horatarde>
+        </horario>   
+        <direccion>C/ Cercas Bajas 18</direccion>
+        <menu tipo="degustacion">
+            <plato>Brioche casero</plato>
+            <plato>Mantequilla y perejil</plato>
+            <plato>Macarrón de tomate</plato>
+            <plato>Sorbete de Bloody Mary</plato>
+            <plato>Tartar vegetal</plato>
+            <plato>Setas “al ajillo”</plato>
+            <plato>Brownie de café, helado de toffe y leche</plato>
+        </menu>
+        <menu tipo="fin de semana">
+            <plato>Yema de huevo de caserío sobre estofado de trigo y jugo de pimientos asados al carbón</plato>
+            <plato>Cochinillo confitado y lacado, láminas de champiñones, pesto y gnoquis de Idiazabal</plato>
+            <plato>Crema de goxua a mi estilo con helado de toffee</plato>
+        </menu>
+        <ciudad postal="CP48560">Larrabetzu</ciudad>
+        <mesas>90</mesas>
+        <informacion tipo="web">https://eneko.restaurant/</informacion>
+    </restaurante>
+</reservaeventos>

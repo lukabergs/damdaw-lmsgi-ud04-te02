@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Asociar una transformación XSLT -->
+<?xml-stylesheet type="text/xsl" href="teatro.xsl"?>
+
+<reservaeventos>
+    <!--   obras de teatro   -->
+    <teatro>
+        <obra>Todas las hijas</obra>
+        <actores>
+            <actor>
+                <nombre>Ane</nombre>
+                <apellido>Gabarain</apellido>
+            </actor>
+            <actor>
+                <nombre>Gemma</nombre>
+                <apellido>Martínez</apellido>
+            </actor>
+            <actor>
+                <nombre>Maribel</nombre>
+                <apellido>Salas</apellido>
+            </actor>
+            <actor>
+                <nombre>Sol</nombre>
+                <apellido>Maguna</apellido>
+            </actor>  
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Andrés</nombredir>
+                <apellidodir>Lima</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:30:00</duracion>
+        <fechahora dia="2023-01-24" hora="19:30:00">Arriaga Antzokia</fechahora>
+        <precio>20.5</precio>
+        <plazas>1200</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Lehendakari gaia</obra>
+        <actores>
+            <actor>
+                <nombre>Iker</nombre>
+                <apellido>Galartza</apellido>
+            </actor> 
+            <actor>
+                <nombre>Zuhaitz</nombre>
+                <apellido>Gurrutxaga</apellido>
+            </actor>
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Begoña</nombredir>
+                <apellidodir>Bilbao</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:15:00</duracion>
+        <fechahora dia="2023-01-31" hora="17:00:00">Teatro Principal</fechahora>
+        <precio>32</precio>
+        <plazas>900</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Todas las nietas</obra>
+        <actores>
+            <actor>
+                <nombre>Maribel</nombre>
+                <apellido>Salas</apellido>
+            </actor> 
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Andrés</nombredir>
+                <apellidodir>Lima</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:30:00</duracion>
+        <fechahora dia="2023-01-19" hora="19:30:00">Arriaga Antzokia</fechahora>
+        <precio>10.5</precio>
+        <plazas>1200</plazas>   
+    </teatro>
+    <teatro>
+        <obra>Hobe ixilik!</obra>
+        <actores>
+            <actor>
+                <nombre>Itziar</nombre>
+                <apellido>Ituño</apellido>
+            </actor> 
+            <actor>
+                <nombre>Ramon</nombre>
+                <apellido>Agirre</apellido>
+            </actor>
+        </actores>
+        <directores>
+            <director>
+                <nombredir>Begoña</nombredir>
+                <apellidodir>Bilbao</apellidodir>
+            </director>
+        </directores>
+        <duracion>01:15:00</duracion>
+        <fechahora dia="2023-01-26" hora="19:30:00">Teatro Principal</fechahora>
+        <precio>16</precio>
+        <plazas>900</plazas>   
+    </teatro>
+</reservaeventos>
